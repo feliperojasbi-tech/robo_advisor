@@ -11,7 +11,7 @@ if 'total_score' not in st.session_state:
     st.session_state.total_score = 0
 
 st.title("👤 Cuestionario de Perfilado del Inversor")
-st.markdown("Por favor, responde a las siguientes 10 preguntas para evaluar tu perfil de riesgo y horizonte temporal.")
+st.markdown("Por favor, responde a las siguientes 10 preguntas para evaluar tu perfil de riesgo y horizonte temporal de inversión.")
 
 # Creamos el formulario de captura de datos
 with st.form("survey_form"):
